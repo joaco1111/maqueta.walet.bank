@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Bancaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Bank</h1>
+            <button class="logout-btn">Cerrar Sesión</button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="balance-section">
+            <div class="card">
+                <h3>Mi Tarjeta</h3>
+                <p class="card-number">**** **** **** 1234</p>
+                <p class="card-holder">Joaquín Ortega</p>
+                <p class="card-expiry">Vence: 12/25</p>
+            </div>
+            <div class="balance-info">
+                <h2>Saldo Disponible</h2>
+                <p class="balance">$25,467.89</p>
+            </div>
+            <div class="balance-actions">
+                <button class="action-btn">Transferir</button>
+                <button class="action-btn">Recargar</button>
+                <button class="action-btn">Retirar</button>
+                <button class="action-btn">Pagar Servicios</button>
+            </div>
+        </section>
+        <section class="transactions-section">
+            <h2>Últimos Movimientos</h2>
+            <ul class="transaction-list">
+                <li class="transaction">
+                    <p>Pago de Netflix</p>
+                    <span class="expense">- $800.00</span>
+                </li>
+                <li class="transaction">
+                    <p>Transferencia recibida</p>
+                    <span class="income">+ $10,000.00</span>
+                </li>
+                <li class="transaction">
+                    <p>Compra en Amazon</p>
+                    <span class="expense">- $2,500.00</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="#" class="nav-item">Inicio</a>
+            <a href="#" class="nav-item">Transferencias</a>
+            <a href="#" class="nav-item">Perfil</a>
+        </nav>
+    </footer>
+</body>
+</html>
